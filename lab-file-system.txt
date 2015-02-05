@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student/mtec1003
 
 
 ==========
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,7 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+ent-v321-006:qux student$ 
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1003/foo/bar
 
 
 ==========
@@ -97,6 +97,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/student/mtec1003/foo/bar/baz/qux
 
 
  
@@ -108,18 +109,20 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1003
 
 
 ==========
 12. Type:
 
 $ ls -l
-$ rmdir animals
+$ rmdir animal
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+drwxr-xr-x  3 student  staff  102 Feb  2 20:20 foo
+drwxr-xr-x  2 student  staff   68 Feb  2 20:19 food
 
 
 
@@ -131,7 +134,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -142,7 +145,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -153,6 +156,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+-bash: cd: /unknown_folder: No such file or directory
+ent-v321-006:Volumes student$ pwd
+/Volumes
 
 
 
@@ -164,7 +170,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1003
 
 
 ==========
@@ -174,13 +180,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v321-006.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+cd ~/mtec1003
 
 
 ==========
@@ -203,7 +209,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p lemon/orange/strawberry/pineapple
 
 
 ==========
@@ -211,7 +217,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -219,7 +225,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+Feb 2
 
 
 ==========
@@ -231,7 +237,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 ==========
@@ -239,7 +245,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd baz
 
 
 ==========
@@ -247,44 +253,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+ls -a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 28. What's a pathname?
 ----------
-
+The general form of the name of a file or directory; it specifies a unique location in a file system
 
 
 ==========
 29. What's a directory?
 ----------
-
+A cataloging structure on a file system that references other files. It's usually used to organize files. 
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Users/username/Downloads
